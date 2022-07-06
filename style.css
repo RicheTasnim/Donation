@@ -6,17 +6,11 @@ body{
 h1{
     font-size: 50px;
 }
-.first-part{
+.banner{
     background-image: url(./images/donation4.jpg);
     color: white;
     background-repeat: no-repeat;
-    
-    width: 1440px;
-    height: 669px;
     background-size: 100%;
-}
-.head{
-    padding: 15%;
 }
 .button{
     text-decoration: none;
@@ -51,6 +45,15 @@ h1{
     margin-right: 5px;
     box-shadow: 10px 10px 40px gray;
     
+}
+.bonous-area{
+    background-image: url(./images/donation9-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70%;
+    text-align: center;
+    padding-left: 10%;
+    margin: 10px;
 }
 footer{
     color: white;
