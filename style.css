@@ -1,0 +1,15 @@
+div{
+    background-image: url(images/donation4.jpg);
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 669px;
+}
+footer{
+    color: white;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+}
