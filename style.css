@@ -1,15 +1,33 @@
-div{
-    background-image: url(images/donation4.jpg);
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.first-part{
+    background-image: url(./images/donation4.jpg);
     color: white;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: cover;
     width: 1440px;
     height: 669px;
+    background-size: 100%;
+}
+.head{
+    padding: 15%;
 }
 footer{
     color: white;
     background-color: black;
     background-size: cover;
     text-align: center;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 16px 12px;
+    border-radius: 5px;
 }
