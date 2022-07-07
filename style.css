@@ -47,6 +47,9 @@ h2{
     font-weight: 600;
     font-size: 25px;
 }
+.two{
+    border: 4px solid #f6b2b2;
+}
 #amount{
     position: center;
     margin-left: 19%;
