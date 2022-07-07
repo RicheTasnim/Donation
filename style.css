@@ -34,7 +34,7 @@ h2{
 .donation-amount{
     margin: 5% 10%;
 }
-#situation{
+.situation{
     margin: 0 30%;
 }
 .donation-button{
@@ -47,8 +47,12 @@ h2{
     font-weight: 600;
     font-size: 25px;
 }
+#amount{
+    position: center;
+    margin-left: 19%;
+}
 .other-amount{
-    width: 100%;
+    width: 680px;
     border-bottom: 2px solid #c9c1c1;
     margin: 40px;
 }
@@ -57,7 +61,7 @@ h2{
     border: 0;
 }
 .donation-plan{
-
+    text-align: center;
 }
 
 .plans{
@@ -65,18 +69,26 @@ h2{
     margin-bottom: 20px;
     text-align: center; 
     justify-content: center;
+    margin-top: 20px;
 
 }
 .plans-decoration{
-    width: 300px;
-    height: 400px;
-    padding-left: 10px;
+    width: 350px;
+    height: 350px;
+    padding-top: 60px;
+    padding-left: 8px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #d2d6d6;
     text-align: left;
-    
-    
+}
+#plan1{
+    background-color: rgb(207, 226, 234);
+}
+#plan2{
+    background-color: rgb(250, 212, 233);
+}
+#plan3{
+    background-color: rgb(250, 190, 152);
 }
 .bonous-area{
     background-image: url(./images/donation9-removebg-preview.png);
@@ -87,9 +99,50 @@ h2{
     padding-left: 10%;
     margin: 10px;
 }
+.form{
+    height: 50px;
+    width: 700px;
+    background: rgb(250, 190, 152);
+    padding: 100px;
+    margin: 0 25%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    justify-content: center;
+}
+#email{
+    background: #d2d6d6;
+    width: 300px;
+    height: 45px;
+    border: none;
+    padding: 0 25px;
+    border-radius: 5px 0 0 5px;
+}
+#subscribe{
+    position: absolute;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 110px;
+    height: 45px;
+    background: #FF5959;
+    padding: 0 25px;
+    text-align: center;
+    color: #ffffff;
+}
 footer{
     color: white;
     background-color: black;
-    background-size: 5%;
     text-align: center;
+    margin-left: 0;
 }
+span{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 35px;
+}
+
