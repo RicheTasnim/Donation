@@ -1,16 +1,28 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     text-align: center;
+    margin: 0;
+
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .banner{
     background-image: url(./images/donation4.jpg);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.head{
+    color: white;
+    position: absolute;
+    padding: 10% 20%;
+
 }
 .button{
     text-decoration: none;
@@ -18,6 +30,12 @@ h1{
     background-color: #FF5959;
     padding: 12px 12px;
     border-radius: 5px;
+}
+.donation-amount{
+    margin: 5% 10%;
+}
+#situation{
+    margin: 0 30%;
 }
 .donation-button{
     background-color: #d2d6d6;
@@ -27,23 +45,37 @@ h1{
     text-decoration: none;
     margin: 25px 3px;
     font-weight: 600;
+    font-size: 25px;
 }
-.donate-plan{
+.other-amount{
+    width: 100%;
+    border-bottom: 2px solid #c9c1c1;
+    margin: 40px;
+}
+.ipnput-feild{
+    outline: none;
+    border: 0;
+}
+.donation-plan{
 
 }
 
 .plans{
     display: flex;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: center; 
+    justify-content: center;
 
 }
 .plans-decoration{
-    width: 40%;
+    width: 300px;
+    height: 400px;
     padding-left: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-shadow: 10px 10px 40px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #d2d6d6;
+    text-align: left;
+    
     
 }
 .bonous-area{
